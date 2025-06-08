@@ -6,7 +6,7 @@ const eventServiceApi = axios.create({
 });
 
 const userServiceApi = axios.create({
-  baseURL: process.env.REACT_APP_USER_SERVICE_URL || 'http://localhost:5002/api',
+  baseURL: process.env.REACT_APP_USER_SERVICE_URL || 'http://localhost:32799/api',
 });
 
 const bookingServiceApi = axios.create({
