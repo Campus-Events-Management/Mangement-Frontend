@@ -2,7 +2,7 @@ import axios from 'axios';
 
 // Create axios instances for each service
 const eventServiceApi = axios.create({
-  baseURL: process.env.REACT_APP_EVENT_SERVICE_URL || 'http://localhost:5075/api',
+  baseURL: process.env.REACT_APP_EVENT_SERVICE_URL || 'http://20.151.178.41:5075/api',
 });
 
 const userServiceApi = axios.create({
@@ -10,7 +10,7 @@ const userServiceApi = axios.create({
 });
 
 const bookingServiceApi = axios.create({
-  baseURL: process.env.REACT_APP_BOOKING_SERVICE_URL || 'http://localhost:5003/api',
+  baseURL: process.env.REACT_APP_BOOKING_SERVICE_URL || 'http://20.151.178.41:5003/api',
 });
 
 // Add request interceptor to each service for authentication
