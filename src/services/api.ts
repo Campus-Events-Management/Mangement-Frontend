@@ -6,7 +6,7 @@ const eventServiceApi = axios.create({
 });
 
 const userServiceApi = axios.create({
-  baseURL: process.env.REACT_APP_USER_SERVICE_URL || 'http://20.151.178.41:35501/api',
+  baseURL: process.env.REACT_APP_USER_SERVICE_URL || 'http://20.151.178.41:40201/api',
 });
 
 const bookingServiceApi = axios.create({
